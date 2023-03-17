@@ -1,0 +1,132 @@
+.Container {
+
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background: linear-gradient(135deg, rgba(241, 194, 51, 0.27) 24.48%, rgba(113, 178, 126, 0.36) 58.85%);
+
+
+
+}
+
+.Container-gradien {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(135deg, rgba(241, 194, 51, 0.27) 24.48%, rgba(113, 178, 126, 0.36) 58.85%);
+}
+
+.navigation-bar {
+    background: linear-gradient(112.53deg, rgba(255, 255, 255, 0.38) 4.91%, rgba(255, 255, 255, 0) 135.61%);
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(50px);
+}
+
+.content {
+    position: absolute;
+    height: 70%;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 50px;
+    z-index: 2;
+
+    background: url(/src/asset/background.png);
+    background-blend-mode: darken;
+
+    border-radius: 40px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.content-h1 {
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 244px;
+
+
+
+    color: #FFFFFF;
+}
+
+.conttent-h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    
+
+    bottom: 0;
+    
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    
+}
+
+.logo-link {
+    color: black;
+    text-decoration: none;
+}
+.logo-link :hover {
+    color: black;
+    text-decoration: none;
+}
+
+.background {
+    padding-top: 80px;
+    background-image:  url(/src/asset/background.png);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);
+  }
+  h1 {
+    font-size: 6rem;
+    margin-top: 6rem;
+    font-family: 'Vollkorn';
+    color: white;
+    font-style: normal;
+  }
+  
+  h2 {
+    font-family: 'Montserrat';
+font-style: normal;
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: black;
+    font-weight: bold;
+  }
+  .blur-background .container {
+    position: relative;
+    z-index: 1;
+  }
+ 
+  
+  
+  
+  
